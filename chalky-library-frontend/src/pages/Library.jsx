@@ -7,11 +7,11 @@ export default function Library() {
   const [query, setQuery] = useState("");
 
   const filteredBooks = mockBooks.filter((book) =>
-    book.title.toLowerCase().includes(query.toLowerCase())
+    book.title.toLowerCase().includes(query.trim().toLowerCase())
   );
 
   return (
-    <div className="p-4">
+    <div>
       <SearchBar value={query} onChange={setQuery} />
       <BookGroup title="Results" books={filteredBooks} />
     </div>

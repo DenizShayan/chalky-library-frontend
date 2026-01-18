@@ -2,8 +2,10 @@ import Library from "./pages/Library";
 
 function App() {
   return ( 
-    <div className="p-4 bg-zinc-100 min-h-screen">
-      <Library />
+    <div className="min-h-screen bg-slate-50">
+      <div className="max-w-5xl mx-auto p-6">
+        <Library />
+      </div>
     </div>
   );
 }
