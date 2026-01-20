@@ -1,9 +1,21 @@
 import BookCard from "./BookCard";
 
-export default function BookGroup({ title, books }) {
+export default function BookGroup({ title, books, onSeeMore }) {
   return (
     <section className="mt-6">
-      <h2 className="mb-4 text-lg font-semibold">{title}</h2>
+      <div className= "mb-4 flex items-center justify-between">
+        <h2 className="text-lg font-semibold">{title}</h2>
+
+        {onSeeMore && (
+          <button
+            type="button"
+            onClick={onSeeMore}
+            className="text-sm text-indigo-600 hover:text-indigo-800"
+          >
+            See more books →
+          </button>
+        )}
+      </div>
 
       <div className="
         grid
