@@ -1,16 +1,51 @@
-# React + Vite
+# React Library Manager 📚
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple front-end application built with **React** that allows users to browse and search books by alphabetical groups.
 
-Currently, two official plugins are available:
+This project focuses on clean UI, component-based architecture, and basic client-side navigation.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+- 🔍 **Search books** by title
+- 🗂 **Grouped book listing** by alphabetical ranges  
+  - Currently implemented groups:
+    - **A–B**
+    - **C–D–E**
+- ➡️ **“See more books” navigation**
+  - Each group has a *See more books →* link
+  - Clicking it navigates to a separate page showing books from that group
+  - Includes a **Back** button to return to the main view
+- 🧩 Reusable React components
+- 📱 Responsive layout
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠 Tech Stack
+
+- **React**
+- **JavaScript (ES6+)**
+- **Vite**
+- **Tailwind CSS**
+- **HTML & CSS**
+- **Git & GitHub**
+
+---
+
+## 🧠 Project Purpose
+
+This is a **personal project** built to practice:
+- React component structure
+- State management with `useState`
+- Conditional rendering
+- Client-side navigation
+- Clean and readable UI design
+
+---
+
+## 🚀 Getting Started
+
+```bash
+npm install
+npm run dev
