@@ -53,4 +53,4 @@ npm run dev
 ## 🌐 Live Demo
 
 Check out the live version of the project here:  
-👉 https://.com
+  https://react-library-manager-three.vercel.app/
